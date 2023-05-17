@@ -1,0 +1,83 @@
+.light {
+    --body-bg: #ecf0f3;
+    background: var(--body-bg);
+
+    --container-bg: #ecf0f3d7;
+    --boxShadow-color: white;
+
+    --element-color: #164983d7;
+
+    --text-color: white;
+}
+
+.dark {
+    --body-bg: black;
+    background: var(--body-bg);
+
+    --container-bg: rgb(51, 49, 49);
+    --boxShadow-color: black;
+
+    --element-color: white;
+
+    --text-color: black;
+}
+
+#changeTheme {
+    height: 50px;
+    width: 150px;
+    margin-left: 30px;
+    border: 1px solid var(--element-color);
+    border-radius: 30px;
+    background: var(--element-color);
+    color: var(--text-color);
+}
+
+#container {
+    width: 400px;
+    height: 400px;
+    margin-top: 120px;
+    margin-left: 550px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: var(--container-bg);
+    border-radius: 70px;
+    box-shadow: 14px 14px 20px var(--boxShadow-color), -14px -14px 20px var(--boxShadow-color);
+}
+
+#screen {
+    height: 80px;
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    background: var(--element-color);
+    border-radius: 20px;
+    text-align: center;
+    color: var(--text-color);
+    font-size: x-large;
+}
+
+#buttons {
+    margin: 50px 50px 10px 20px;
+}
+
+#add {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid var(--element-color);
+    margin-left: 50px;
+    background: var(--element-color);
+}
+
+#reset {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background: var(--element-color);
+    border: 1px solid var(--element-color);
+    color: var(--text-color);
+}
+
+#result {
+    font-weight: bold;
+}
